@@ -44,8 +44,6 @@ const calculator = (number1, number2) => {
   return objectOperations;
 };
 
-const arrayGenerator = (type, object) => {
-  return Object[type](object);
-};
+const arrayGenerator = (type, object) => Object[type](object);
 
 module.exports = { calculator, arrayGenerator };
